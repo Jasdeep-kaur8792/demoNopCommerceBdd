@@ -20,20 +20,6 @@ public class AddItems {
     By clickOnCheckBox = By.xpath("(//input[@type='checkbox'])[2]");
     By clickOnCheckOutButton = By.xpath("(//button[contains(text(),' Checkout ')])");
 
-    By clickOnRegisterButton = By.xpath("//button[@class='button-1 register-button']");
-
-    By enterFirstName = By.xpath("  //input[@name='FirstName']");
-
-    By enterLastName = By.xpath("//input[@name='LastName']");
-
-    By emailInput = By.xpath("//input[@name='Email']");
-
-    By enterPassword = By.xpath("//input[@name='Password']");
-
-    By enterConfirmedPassword = By.xpath("//input[@name='ConfirmPassword']");
-
-    By enterRegisterButton = By.xpath("  //button[contains(text(),'Register')]");
-
 
     public AddItems(WebDriver driver) {
         this.driver = driver;
@@ -62,13 +48,6 @@ public class AddItems {
     {
         driver.findElement(clickOnCheckBox).click();
         driver.findElement(clickOnCheckOutButton).click();
-//        driver.findElement(clickOnRegisterButton).click();
-//        driver.findElement(enterFirstName).sendKeys("Jas");
-//        driver.findElement(enterLastName).sendKeys("Kaur");
-//        driver.findElement(emailInput).sendKeys("jsdp@gmail.com");
-//        driver.findElement(enterPassword).sendKeys("password");
-//        driver.findElement(enterConfirmedPassword).sendKeys("password");
-//        driver.findElement(enterRegisterButton).click();
-
     }
 }
+

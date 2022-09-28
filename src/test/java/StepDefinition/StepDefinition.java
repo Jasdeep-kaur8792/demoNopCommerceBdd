@@ -26,4 +26,22 @@ public class StepDefinition extends BaseClass {
     public void checkout_the_product() {
         pageFactory.getAddComputerItems().clickOnCheckOut();
     }
+
+    @Given("user is on Register page")
+    public void user_is_on_register_page() {
+        pageFactory.getRegisterPage().register();
+    }
+    @Then("click on register button")
+    public void click_on_register_button() {
+        pageFactory.getRegisterPage().registerButton();
+    }
+    @Given("item add in wishlist")
+    public void item_add_in_wishlist() {
+        pageFactory.getApparelPage().shoes();
+    }
+    @Then("verify product is added or not")
+    public void verify_product_is_added_or_not() {
+        pageFactory.getApparelPage().verifyProduct();
+    }
+
 }
