@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.949">
+    <testcase classname="Check computer module Functionality" name="Checking Functionality of top Left Computer Module" time="14.623">
+        <system-out><![CDATA[Given User is on home page..................................................passed
+And User click on computer module and click or add to cart product..........passed
+When Verify product the product is added or not.............................passed
+Then checkout the product...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
